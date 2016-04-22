@@ -127,6 +127,7 @@ This data is collected from the `VCAP_APPLICATION` environment variable in IBM B
 
 Deployment tracking can be disabled by removing `require('cf-deployment-tracker-client').track();` from the beginning of the `server.js` file at the root of this repo.
 
+
 [deploy_track_url]: https://github.com/cloudant-labs/deployment-tracker
 [service_url]: http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/tone-analyzer.html
 [cloud_foundry]: https://github.com/cloudfoundry/cli
